@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tailwind Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-unbounded  bg-orange-50">
+    <!-- introsection -->
+
+
+    <div class="h-screen lg:h-screen bg-orange-50 p-0">
+
+
+        <!-- navbar -->
+        <nav class="w-full bg-orange-50 p-0 z-10">
+            <div
+                class="container mx-auto flex justify-between items-center lg:border m-3 lg:border-gray-300 lg:flex text-sm">
+                <a><img class=" mx-8 w-[140px]" src="./img/logo.svg" alt="logo">
+                    <ul class="hidden md:flex lg:flex space-x-10 text-gray-600 p-8 border-x-[.0625rem] border-gray-300">
+                        <li class="hover:text-gray-900 hover:underline underline-offset-8 hover:decoration-2 "><a
+                                href="">Home</a></li>
+                        <li class="hover:text-gray-900 hover:underline underline-offset-8 hover:decoration-2 "><a
+                                href="">Portfolio</a></li>
+                        <li class="hover:text-gray-900 hover:underline underline-offset-8 hover:decoration-2 "><a
+                                href="">Services</a></li>
+                        <li class="hover:text-gray-900 hover:underline underline-offset-8 hover:decoration-2 "><a
+                                href="">About me</a></li>
+                        <li class="hover:text-gray-900 hover:underline underline-offset-8 hover:decoration-2 "><a
+                                href="">Contact me</a></li>
+                    </ul>
+                    <div class="flex justify-between">
+                        <span></span>
+                        <img class=" mx-12 cursor-pointer w-10 object-cover hidden md:block"
+                            src="./img/moon-regular-24.png" alt="moon">
+                    </div>
+
+                    <div id="hamburger" class=" space-y-1 md:hidden z-20">
+                        <div class="w-6 h-0.5 bg-black "></div>
+                        <div class="w-6 h-0.5 bg-black "></div>
+                        <div class="w-6 h-0.5 bg-black "></div>
+                    </div>
+                    <ul id="menu"
+                        class="hidden absolute top-0 left-0 bg-orange-50 w-full p-10 divide-y divide-gray-300 text-left md:hidden">
+                        <li class="py-4"><a href="">Home</a></li>
+                        <li class="py-4"><a href="">Portfolio</a></li>
+                        <li class="py-4"><a href="">Services</a></li>
+                        <li class="py-4"><a href="">About me</a></li>
+                        <li class="py-4"><a href="">Contact me</a></li>
+                    </ul>
+
+
+
+
+
+            </div>
+        </nav>
+        <!-- into content -->
+        <section class="relative ">
+            <div class="  lg:left-0 mx-auto">
+                <div class="flex items-center justify-center flex-col text-center">
+                    <img class="w-44 m-4" src="./img/sefie.png" alt="">
+                    <p class="text-4xl my-10">I am <span class="text-red-600" id="text"></span></p>
+                    <span class=" text-4xl text-bold lg:text-8xl px-6 text-wrap">I love creating websites and building
+                        products</span>
+                    <button class="mt-16 hover:bg-[#6A4b48] bg-gray-950 text-slate-100 py-4 px-10">CONTACT ME</button>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section class=" py-48 mx-24 px-10 ">
+            <div class="container mx-auto py-32 flex flex-col-reverse lg:flex-row items-center gap-20">
+                <div class="  container flex lg:mx-8 flex-col-reverse lg:flex-row">
+                    <img class=" mx-auto w-80" src="./img/hi.svg" alt="hi">
+                    <div class="flex flex-col items-stretch pl-14 gap-2">
+                        <h1 class="font-bold pb-4 text-5xl">About me <span class=" text-red-600 ">.</span></h1>
+                        <h1>Better Design</h1>
+                        <h1>Better Experience</h1>
+                        <p class="text-wrap text-sm text-gray-500">I design and build digital products. I'm also a
+                            multi-disciplinary maker with over 5 years of experience in wide range of design
+                            disciplines.</p>
+                        <h2 class="text-gray-500 font-light text-sm pt-4">HTML</h2>
+                        <div class="w-full bg-[#D4CEC6] h-1.5">
+                            <div class="
+                            bg-[#6A4b48] w-full h-1.5"></div>
+                        </div>
+                        <h2 class="text-gray-500 font-light text-sm pt-3">Javascript</h2>
+                        <div class="w-full bg-[#D4CEC6] h-1.5">
+                            <div class="
+                            bg-[#6A4b48] w-5/6 h-1.5"></div>
+                        </div>
+                        <h2 class="text-gray-500 font-light text-sm pt-3">CSS</h2>
+                        <div class="w-full bg-[#D4CEC6] h-1.5">
+                            <div class="
+                            bg-[#6A4b48] w-4/6 h-1.5"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="">
+            <div class="container mx-auto">
+                <!-- top  -->
+                <div class="flex flex-col gap-3 items-center">
+                    <h1 class="font-bold pb-4 text-5xl">
+                        Services <span class="text-red-600">.</span>
+                    </h1>
+                    <h1>
+                        What do I offer?
+                    </h1>
+                    <p class="w-1/2 text-center text-gray-500">My approach to web design is to create a website that
+                        strengthens your company's brand while ensuring ease of use and simplicity for your audience.
+                    </p>
+                </div>
+                <!-- bottom -->
+                <div class="flex flex-col items-center py-6">
+                    <div class="flex items-center gap-2 pt-2">
+                        <img class="w-4 h-4" src="./img/user-regular-228.png" alt="">
+                        <p>User Experience & User Interface Design</p>
+                    </div>
+                    <div class="flex items-center gap-2 pt-2">
+                        <img src="./img/bx-universal-access.svg" alt="">
+                        <p>Website Audit & accessibility</p>
+                    </div>
+                    <div class="flex items-center gap-2 pt-2">
+                        <img src="./img/code-alt-regular-24.png" alt="">
+                        <p>Website Design & Development</p>
+                    </div>
+                    <div class="flex items-center gap-2 pt-2">
+                        <img src="./img/bx-store.svg" alt="">
+                        <p>Online & Social Marketing</p>
+                    </div>
+                    <button class="mt-16 hover:bg-[#6A4b48] bg-gray-950 text-slate-100 py-4 px-10">HIRE ME</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- works -->
+        <div id="works" class="py-40 dark:bg-slate-900">
+            <div class="container mx-auto">
+                <!-- top -->
+                <div class="flex flex-col gap-3 items-center">
+                    <h1 class="font-bold pb-4 text-5xl">Portfolio <span class="text-red-600">.</span></h1>
+                    <h1 class="text-3xl dark:text-white">Works & Projects</h1>
+                    <p class="w-1/2 text-center text-gray-500">
+                        I help designers, small agencies and businesses bring their ideas to
+                        life. Powered by Figma, VS Code and coffee, I turn your requirements
+                        into a well-designed websites
+                    </p>
+                </div>
+                <!-- bottom -->
+                <div class="p-5 sm:p-2 flex flex-row flex-wrap  md:flex-col md:items-center mt-14  justify-between border ">
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img class="w-[2.75rem]" src="./img/img1.svg" />
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img src="./img/img2.svg" />
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img src="./img/img3.svg" />
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img src="./img/img4.svg" />
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img src="./img/img5.svg" />
+                    </div>
+                    <!-- card -->
+                    <div
+                        class="w-1/2 md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-3 transition-all hover:scale-110">
+                        <img src="./img/img6.svg" />
+                    </div>
+                    <!-- card -->
+
+                </div>
+            </div>
+        </div>
+
+
+         <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+            <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+            <p class="w-1/2 text-center text-gray-400">
+              Do you have an idea? Let's discuss it and see what we can do
+              together.
+            </p>
+          </div>
+          <!-- bottom -->
+          <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white border"
+              type="text"
+              placeholder="Name Surname"
+            />
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white border"
+              type="email"
+              placeholder="Email"
+            />
+            <textarea
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white border"
+              cols="30"
+              rows="10"
+              placeholder="Message..."
+            ></textarea>
+            <button
+            class="mt-16 hover:bg-[#6A4b48] bg-gray-950 text-slate-100 py-4 px-10"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="w-full bg-gray-800">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-8" src="./img/logo.png" alt="" />
+            <span class="text-2xl font-bold text-white">Jesutoni.</span>
+          </div>
+          <span class="hidden md:block font-medium text-white"
+            >© 2024 Jesutoni. Designed by Jesutoni Adeleye.</span
+          >
+          <div class="flex gap-2">
+            <img class="w-4 cursor-pointer" src="./img/facebook-logo-24.png" alt="" />
+            <img class="w-4 cursor-pointer" src="./img/instagram-logo-24.png" alt="" />
+            <img class="w-4 cursor-pointer" src="./img/twitter-logo-24.png" alt="" />
+            <img class="w-4 cursor-pointer" src="./img/linkedin-logo-24.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+</body>
+
+</html>
